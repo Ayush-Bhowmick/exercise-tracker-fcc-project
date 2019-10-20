@@ -1,0 +1,36 @@
+{
+	"author": "Ayush Bhowmick",
+	"description": "Project for the FreeCodeCamp curriculum",
+	"keywords": [
+		"freecodecamp",
+		"fcc",
+		"node",
+		"challenge"
+	],
+	"license": "MIT",
+	"name": "AyushBhowmick-fcc-exercise-tracker",
+	"version": "0.1.01",
+	"main": "Main.js",
+	"scripts": {
+		"start": "nodemon Main.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.1",
+		"dotenv": "^6.0.0",
+		"express": "^4.16.0",
+		"express-async-errors": "^3.0.0",
+		"helmet": "^3.12.1",
+		"joi": "^13.6.0",
+		"mongodb": "^2.2.16",
+		"mongoose": "^5.2.4",
+		"nodemon": "^1.18.3",
+		"pug": "^2.0.3"
+	},
+	"engines": {
+		"node": "^8.11.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ayush-Bhowmick/exercise-tracker.git"
+	}
+}
